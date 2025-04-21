@@ -103,5 +103,8 @@ public class PlayfairCipher {
 
         String encrypted = encrypt(plaintext);
         System.out.println("Encrypted text: " + encrypted);
+        sc.close();
     }
 }
+// Enter key: MONARCHY
+// Enter plaintext: HELLO
